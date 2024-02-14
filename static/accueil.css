@@ -1,0 +1,30 @@
+body {
+    background-image: url('./image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajuste la hauteur à la taille de l'écran */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.container a {
+    padding: 10px 20px;
+    background-color: #fcfcfc;
+    color: rgb(9, 92, 248);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}

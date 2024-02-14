@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    background-color: rgb(38, 85, 185);
+    color: #ffff
+}
+/* Style de base pour les blocs */
+.block {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(141, 149, 167);
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Aligner les éléments enfants verticalement */
+    justify-content: center; /* Centrer verticalement les éléments enfants */
+    text-align: center; /* Centrer le texte horizontalement */
+    
+}
+
+/* Style pour les liens */
+.block a {
+    text-decoration: none; /* Supprime la soulignement par défaut */
+    display: block; /* Transforme le lien en un bloc de type boîte */
+    border: 2px solid #b2ade0; /* Ajoute une bordure au lien */
+    padding: 10px; /* Ajoute un espace intérieur au lien */
+}
+
+/* Style pour les images */
+.block img {
+    max-width: 100%; /* Assure que l'image ne dépasse pas la largeur du bloc */
+    height: auto; /* Permet à l'image de conserver ses proportions */
+    /* background-image: url('./image.jpg'); */
+}
+.general_block{
+    display: flex;
+    justify-content: center;
+}
